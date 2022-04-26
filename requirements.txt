@@ -1,0 +1,6 @@
+pycryptodome
+boto3
+pyAesCrypt
+argparse
+stegano
+
