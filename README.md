@@ -1,4 +1,4 @@
-## Secure File Storage in Cloud Using Hybrid Cryptography##
+## Secure File Storage in Cloud Using Hybrid Cryptography ##
 
 ### Objective.
 We introduce a solution to achieve the secrecy of the data during uploading to, downloading from,
@@ -43,11 +43,15 @@ The decryption phase of this process involves the use of your gmail account, alt
 Google now doesn’t accept the login from less secure apps. So you need to go to [Google's Privacy Settings](https://myaccount.google.com/security) scroll to the bottom and turn ON “Allow less secure apps: ON”. You need to do this for the email ID you are adding in your Send as a section.
 
 # Running the App
-In order to run the app in your device, first you need to make some changes in the `hybrid.py` file. You need to modify the value of all those variables whose values are specified in between `< >`.
-
-After changing the values of every variables,
-
-`python3 main.py`
+In order to run the app in your device, first you need to creaet a file  `SECRET.py`.And Add these lines :
+```
+SENDER_EMAIL = 
+SENDER_PASS =  
+```
+then assign the eamil and password.
+After changing the values of every variables. 
+To Print The help menu:
+`python3 main.py --help`
 
 ## Teammates
 - https://github.com/Mostafa1Mahmoud
