@@ -5,14 +5,6 @@ from sys import argv
 from os import listdir
 from functions import *
 
-def msg(name=None):
-    return '''
-        \n Enter the following command for: 
-        \n [+] File Encryption : python main.py --encrypt --filename FILE --bucketname BUCKET_NAME --image IMAGE_NAME.png --mail EMAIL
-        \n [+] File Decryption : python main.py --decrypt --filename FILE.enc --bucketname BUCKET_NAME --image IMAGE.png 
-        \n [+] List Files Stored In Your Bucket : python main.py --list --bucketname BUCKET_NAME
-    '''
-
 
 if __name__== "__main__":
     
